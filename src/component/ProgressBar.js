@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProgressBar = ({totalScore, overallScore, maxScore}) => (
-  <div className="mt-5">
+  <div className="footer">
     <div className="overflow-auto">
       <small className="float-left">Score: {overallScore}%</small>
       <small className="float-right">Max Score: {maxScore}%</small>

@@ -4,6 +4,16 @@
     border: solid 7px #eee;
     padding: 15px;
     margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.questions-list .footer {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
 }
 
 .questions-list h3 {
@@ -74,6 +84,11 @@
     background-color: red;
 }
 
-.progress-bar {
+.questions-list .progress {
+    border-radius: 0;
+    height: 22px;
+}
+
+.questions-list .progress .progress-bar {
     background-color: #707077;
 }
