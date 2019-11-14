@@ -1,0 +1,79 @@
+.questions-list {
+    text-align: left;
+    max-width: 700px;
+    border: solid 7px #eee;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.questions-list h3 {
+    color: #5d5d5d;
+}
+
+.questions-list .question .alert {
+    cursor: pointer;
+}
+
+.questions-list .question small {
+    color: #b5b5b5;
+    margin-bottom: 30px;
+}
+
+.miniBarProgress {
+    height: 100%;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+
+.miniBarProgress.black {
+    background: #000;
+    z-index: 3;
+}
+
+.miniBarProgress.grey {
+    background: grey;
+    z-index: 2;
+}
+
+.miniBarProgress.light-grey {
+    background: #aaaaad;
+    z-index: 1;
+}
+
+.miniBar {
+    height: 1.5rem;
+    border: 1px solid #dcd5dc;
+    position: relative;
+    margin-right: 0.5rem;
+    width: 100%;
+    background: #ffffff;
+}
+
+.ratings {
+    line-height: 10px;
+}
+
+.option-box {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+
+.option-box.success {
+    color: white;
+    background-color: green;
+}
+
+.option-box.failed {
+    color: white;
+    background-color: red;
+}
+
+.progress-bar {
+    background-color: #707077;
+}
