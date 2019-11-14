@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Alert } from 'reactstrap'
+import { Row, Col } from 'reactstrap'
 import StarRatings from 'react-star-ratings'
 
 const Question = ({category, options, isCorrect, question, difficulty, onSelectOption, selectedOption, currentIndex = 0, correctIndex, total}) => {

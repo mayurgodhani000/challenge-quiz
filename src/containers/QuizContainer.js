@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { QuestionList } from '../component/QuestionList';
+import { QuestionList } from '../component/QuestionList'
 import { Api } from '../api'
-
 
 const initialState = {
   questionList: [],
@@ -43,19 +42,19 @@ export function QuizContainer() {
       }
     }
     
-    fetchQuestionsList();
+    fetchQuestionsList()
     
-  }, []);
+  }, [])
   
   if (state.isLoading) {
     return <div>loading...</div>
   }
   
   if (state.error) {
-    return (<div className="color-danger">{state.error}</div>);
+    return (<div className="color-danger">{state.error}</div>)
   }
   
   return (
     <QuestionList questions={state.questionList} />
-  );
-};
+  )
+}
