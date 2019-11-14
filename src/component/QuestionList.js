@@ -33,9 +33,8 @@ export function QuestionList ({questions}) {
   if (currentIndex >= totalQuestions) {
     return (
       <div className="questions-list">
-        <h5>You have successfully completed Quiz! Your score <b>{correctAnswers}</b> out of
-          <b>{questionsList.length}</b>!
-        </h5>
+        <h5>You've completed Quiz!</h5>
+        <h5>Your score is <b>{correctAnswers}/{questionsList.length}</b>.</h5>
       </div>
     )
   }
